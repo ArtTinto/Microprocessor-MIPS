@@ -1,0 +1,49 @@
+# hades.models.Design file
+#  
+[name] Concatenate
+[components]
+hades.models.io.Gnd i6 41400 15000 @N 1001
+hades.models.rtlib.io.Expander i5 20400 9600 @N 1001 32 1.0E-8
+hades.models.rtlib.io.Expander i4 23400 12000 @N 1001 26 1.0E-8
+hades.models.rtlib.io.MergeBits i2 20400 15000 @N 1001 32 1.0E-8
+hades.models.rtlib.io.IpinVector PC\u002b4 18000 9000 @N 1001 32 00000000000000000000000000000000_B 1.0E-9 0
+hades.models.rtlib.io.IpinVector Label 18000 10800 @N 1001 26 00000000000000000000001011_B 1.0E-9 0
+hades.models.rtlib.io.OpinVector Jump_Addres 26400 22800 @N 1001 32 1.0E-9 0
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n33 26 2 Label Y i4 A 4 2 18000 10800 19800 10800 2 19800 10800 19800 11400 2 19800 11400 24000 11400 2 24000 11400 24000 12000 0 
+hades.signals.SignalStdLogic1164 n32 2 i4 Y1 i2 A3 1 2 38400 13200 37800 15000 0 
+hades.signals.SignalStdLogic1164 n31 2 i4 Y0 i2 A2 1 2 39000 13200 38400 15000 0 
+hades.signals.SignalStdLogic1164 n30 3 i6 GND i2 A1 i2 A0 5 2 41400 15000 41400 14400 2 39600 14400 39000 14400 2 39000 14400 39000 15000 2 41400 14400 39600 14400 2 39600 14400 39600 15000 1 39600 14400 
+hades.signals.SignalStdLogic1164 n9 2 i4 Y22 i2 A24 1 2 25200 15000 25800 13200 0 
+hades.signals.SignalStdLogic1164 n8 2 i4 Y23 i2 A25 1 2 25200 13200 24600 15000 0 
+hades.signals.SignalStdLogic1164 n7 2 i4 Y24 i2 A26 1 2 24000 15000 24600 13200 0 
+hades.signals.SignalStdLogic1164 n6 2 i4 Y25 i2 A27 1 2 24000 13200 23400 15000 0 
+hades.signals.SignalStdLogicVector n5 32 2 i2 Y Jump_Addres A 2 2 21000 16200 21000 22800 2 21000 22800 26400 22800 0 
+hades.signals.SignalStdLogic1164 n19 2 i4 Y12 i2 A14 1 2 31200 15000 31800 13200 0 
+hades.signals.SignalStdLogic1164 n18 2 i4 Y13 i2 A15 1 2 31200 13200 30600 15000 0 
+hades.signals.SignalStdLogic1164 n4 2 i5 Y28 i2 A28 1 2 22800 10800 22800 15000 0 
+hades.signals.SignalStdLogic1164 n17 2 i4 Y14 i2 A16 1 2 30000 15000 30600 13200 0 
+hades.signals.SignalStdLogic1164 n3 2 i5 Y29 i2 A29 1 2 22200 15000 22200 10800 0 
+hades.signals.SignalStdLogic1164 n2 2 i5 Y30 i2 A30 1 2 21600 10800 21600 15000 0 
+hades.signals.SignalStdLogic1164 n16 2 i4 Y15 i2 A17 1 2 30000 13200 29400 15000 0 
+hades.signals.SignalStdLogic1164 n1 2 i5 Y31 i2 A31 1 2 21000 15000 21000 10800 0 
+hades.signals.SignalStdLogic1164 n15 2 i4 Y16 i2 A18 1 2 28800 15000 29400 13200 0 
+hades.signals.SignalStdLogicVector n0 32 2 PC+4 Y i5 A 2 2 21000 9600 21000 9000 2 21000 9000 18000 9000 0 
+hades.signals.SignalStdLogic1164 n14 2 i4 Y17 i2 A19 1 2 28800 13200 28200 15000 0 
+hades.signals.SignalStdLogic1164 n13 2 i4 Y18 i2 A20 1 2 27600 15000 28200 13200 0 
+hades.signals.SignalStdLogic1164 n12 2 i4 Y19 i2 A21 1 2 27600 13200 27000 15000 0 
+hades.signals.SignalStdLogic1164 n11 2 i4 Y20 i2 A22 1 2 26400 15000 27000 13200 0 
+hades.signals.SignalStdLogic1164 n10 2 i4 Y21 i2 A23 1 2 26400 13200 25800 15000 0 
+hades.signals.SignalStdLogic1164 n29 2 i4 Y2 i2 A4 1 2 37200 15000 37800 13200 0 
+hades.signals.SignalStdLogic1164 n28 2 i4 Y3 i2 A5 1 2 37200 13200 36600 15000 0 
+hades.signals.SignalStdLogic1164 n27 2 i4 Y4 i2 A6 1 2 36000 15000 36600 13200 0 
+hades.signals.SignalStdLogic1164 n26 2 i4 Y5 i2 A7 1 2 36000 13200 35400 15000 0 
+hades.signals.SignalStdLogic1164 n25 2 i4 Y6 i2 A8 1 2 34800 15000 35400 13200 0 
+hades.signals.SignalStdLogic1164 n24 2 i4 Y7 i2 A9 1 2 34800 13200 34200 15000 0 
+hades.signals.SignalStdLogic1164 n23 2 i4 Y8 i2 A10 1 2 33600 15000 34200 13200 0 
+hades.signals.SignalStdLogic1164 n22 2 i4 Y9 i2 A11 1 2 33600 13200 33000 15000 0 
+hades.signals.SignalStdLogic1164 n21 2 i4 Y10 i2 A12 1 2 32400 15000 33000 13200 0 
+hades.signals.SignalStdLogic1164 n20 2 i4 Y11 i2 A13 1 2 32400 13200 31800 15000 0 
+[end signals]
+[end]
